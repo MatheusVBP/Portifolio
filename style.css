@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 :root {
   --bg-branco: #ffffff;
   --bg-preto: #000000;
-  --text: #1b52de;
+  --texto-azul: #1b52de;
   --bg-button: #4673e3;
   --texto-branco: #ffffff;
   --texto-preto: #000000;
   --cinza: #9e9e9e;
-  --transition: 0.3s ease-in-out;
 }
 
 * {
@@ -19,10 +19,11 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 10px;
 }
 
 body {
-  background: var(--bg-branco);
+  background-color: var(--bg-branco);
 }
 
 header {
@@ -40,7 +41,7 @@ header {
 }
 
 .logo {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--texto-preto);
 }
@@ -48,19 +49,17 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-}
-
-nav ul li {
-  margin: 0 5px;
+  row-gap: 0.3rem;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--texto-preto);
+  font-size: 1.6rem;
   font-weight: bold;
   padding: 6px 6px;
   border-radius: 4px;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -68,7 +67,9 @@ nav ul li a:hover {
   background: var(--bg-button);
 }
 
-#dev {color: blue;}
+#dev {
+  color: var(--texto-azul);
+}
 
 .hero {
   background: var(--bg-branco);
@@ -81,13 +82,13 @@ nav ul li a:hover {
 }
 
 .hero-conteudo h1 {
-  font-size: 40px;
-  color: var(--text);
+  font-size: 4rem;
+  color: var(--texto-azul);
 }
 
 .hero-conteudo p {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .dev-fundo {
@@ -95,12 +96,12 @@ nav ul li a:hover {
   margin: 3px 25px;
   color: var(--texto-branco);
   background: var(--cinza);
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .icons-cinza {
   color: var(--cinza);
-  font-size: 30px;
+  font-size: 3rem;
   padding: 0px 4px;
 }
 
@@ -115,8 +116,8 @@ nav ul li a:hover {
 }
 
 .profile-img{
-  height: 250px;
-  width: 250px;
+  height: 25rem;
+  width: 25rem;
   border-radius: 50%;
   box-shadow: 0px 0px 50px rgba(27, 82, 222, 0.5);
   transition: all 0.3s ease-in-out;
@@ -132,12 +133,82 @@ nav ul li a:hover {
 }
 
 .sobre-texto h2 {
-  color: var(--text);
-  font-size: 26px;
+  color: var(--texto-azul);
+  font-size: 2.6rem;
   margin: 20px 0px;
 }
 
 .sobre-texto p {
-  font-size: 20px;
+  font-size: 2rem;
   text-align: justify;
+}
+
+.hab {
+  display: inline-block;
+  background: var(--bg-branco);
+  width: 100%;
+  padding: 1rem;
+}
+
+.hab-list {
+  display: flex;
+  justify-content: center;
+  padding: 20px 5px;
+}
+
+.hab-list img{
+  width: 35px;
+  margin-right: 5px;
+}
+
+.hab-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hab-icons {
+  display: flex;
+  align-items: center;
+  background: rgba(37, 99, 235, 0.2);
+  border-radius: 5px;
+  padding: 7px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hab-icons p {
+  color: var(--texto-azul);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.hab-icons:hover {
+  transform: scale(1.05);
+}
+
+.hab-texto {
+  text-align: center;
+}
+
+.hab-texto h2 {
+  font-size: 2.6rem;
+  color: var(--texto-azul);
+  margin-bottom: 10px;
+}
+
+.hab-texto p {
+  font-size: 2rem;
+  color: var(--texto-preto);
+}
+
+footer {
+  background-color: var(--bg-preto);
+  color: var(--texto-branco);
+  text-align: center;
+  padding: 10px;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
