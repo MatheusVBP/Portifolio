@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o Projeto  
 
-Este é o meu portfólio pessoal, onde eu fiz como passa tempo. O site foi desenvolvido com **HTML, CSS e JavaScript**, utilizando **Bootstrap Icons** para ícones e **AOS.js** para animações.  
+Este é o meu portfólio pessoal, onde eu fiz como passa tempo. O site foi desenvolvido com *HTML, CSS e JavaScript*, utilizando *Bootstrap Icons* para ícones e *AOS.js* para animações.  
 
 ## ✨ Tecnologias Utilizadas  
 
@@ -30,24 +30,16 @@ O design do portfólio é **moderno, responsivo e interativo**, com foco na expe
  ┣ 📜 README.md  
 ```
 
-## 🔥 Como Visualizar  
-
-1. **Baixe ou clone este repositório:**  
-   ```bash
-   git clone https://github.com/MatheusVBP/meu-portifolio.git
-   ```
-2. **Abra o arquivo `index.html` no navegador**  
-3. **Pronto! Explore o portfólio** 🚀  
-
 ## 🌐 Link para Acesso  
 
 Você pode acessar meu portfólio diretamente em:  
-🔗 [**matheusvbp.github.io/portifolio**](https://matheusvbp.github.io/portifolio)  
+🔗 [**matheusvbp.github.io/Portifolio**](https://matheusvbp.github.io/Portifolio)  
 
 ## 📬 Contato  
 
 📧 **E-mail:** matheusvictor2156@gmail.com  
-🔗 **LinkedIn:** [linkedin.com/in/matheusvbp](https://www.linkedin.com/in/matheus-victor-barbosa-pereira-7a8622334)  
+🔗 **LinkedIn:** [linkedin.com/in/matheusVBP](https://www.linkedin.com/in/matheus-victor-barbosa-pereira-7a8622334)  
 🐙 **GitHub:** [github.com/MatheusVBP](https://github.com/MatheusVBP)  
 
-📌 **Feito com ❤️ por Matheus Victor**  
+📌 **Feito com ❤️ por Matheus Victor**
+🚨 **Mais atualizações em breve!**
